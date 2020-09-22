@@ -64,7 +64,7 @@ def printTreeRearOrder(root):  # 后序遍历
 
 
 if __name__ == '__main__':
-    list_example=[1,2,3,4,5,6,7]
+    list_example=[1,2,3,4,5,6,7,8,9,10]
     root=array_to_tree(list_example,0,len(list_example)-1)
     print('root:'+str(list_example))
 
