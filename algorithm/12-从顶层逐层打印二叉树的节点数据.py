@@ -7,11 +7,10 @@
 
 from collections import deque
 
-
 class BiTNode:
     def __init__(self):
         self.data = None
-        self.fchild = None
+        self.lchild = None
         self.rchild = None
 
 
@@ -47,7 +46,6 @@ def printTreeLayer(root):
             queue.append(p.lchild)
         if p.rchild != None:
             queue.append(p.rchild)
-
 
 if __name__ == "__main__":
     array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
