@@ -16,7 +16,6 @@ def quicksort(sort_list,start,end):
         while start<end and sort_list[end]>=base:
             end=end-1
         sort_list[start]=sort_list[end]
-
         while start<end and sort_list[start]<=base:
             start=start+1
         sort_list[end]=sort_list[start]
